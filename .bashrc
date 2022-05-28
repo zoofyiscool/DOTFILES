@@ -8,7 +8,6 @@
 alias neofetch='neofetch --ascii ~/.ascii | lolcat'
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
-export ARCHLIVE=/extra/OuxLinux/archlive/
 alias c='clear'
 export PYTHONPATH=${PYTHONPATH}:${HOME}/.local/lib/python3.10/site-package
 export PATH=$PATH:/home/preso/.spicetify
