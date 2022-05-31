@@ -1,2 +1,2 @@
 # DOTFILES
-my arch linux dotfiles
+my gentoo linux dotfiles
