@@ -13,8 +13,8 @@ alias neo='neofetch'
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 alias c='clear'
-export SPOTIPY_CLIENT_ID='5eb4905dee104db8803d0cd1fc28b263'
-export SPOTIPY_CLIENT_SECRET='ab4692b617864e0ea0efef59c45b50aa'
+export SPOTIPY_CLIENT_ID='id'
+export SPOTIPY_CLIENT_SECRET='secret'
 export SPOTIPY_REDIRECT_URI='http://127.0.0.1:9090'
 export PATH=$PATH:/home/ouxiez/.spicetify
 export PATH=$PATH:/home/ouxiez/.local/bin
