@@ -99,7 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias fm60='fm6000 -n -shell=zsh --de=i3wm'
+alias upgradekernel='doas /extra/shellscripts/kernel-upgrade.sh'
+alias fm60='fm6000 -n -shell=zsh --de=i3wm --kernel=5.18.8-ouxiez'
 alias firboot='/extra/shellscripts/firstboot.sh'
 alias sherlock='python3 /extra/sherlock/sherlock'
 alias nano='vim'
@@ -114,4 +115,4 @@ alias c='clear'
 #export SPOTIPY_REDIRECT_URI='http://127.0.0.1:9090'
 #export PATH=$PATH:/home/ouxiez/.spicetify
 export PATH=$PATH:/home/ouxiez/.local/bin
-
+fm60
