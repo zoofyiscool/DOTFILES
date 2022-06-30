@@ -236,7 +236,7 @@ client.background       #ffffff
 # Please remove the following exec line:
 #######################################################################
 #exec i3-config-wizard
-exec picom -b
+exec_always picom -b
 exec xrandr --output HDMI-A-0 --auto --left-of DisplayPort-0
 exec_always nitrogen --restore
 gaps inner 10
